@@ -1,0 +1,18 @@
+Day in meteorology marked as "hot" when the daily maximum temperature at least equal to 
+300 tenths degrees (30.0 degrees). In programm language C write a program with a standard 
+input reads sequence of integers which characterize the daily maximum temperature 
+(in tenths of a degree) on consecutive days, standard output is print out the information on the maximum 
+sequence of hot days. The program should display the serial number of the date on which the 
+a sequence start, and length of the sequence in days. The input sequence is completed by a number of 
+-9999 and numbers are separated with one space. 
+
+For example, if the standard input contains 
+
+325 256 309 317 284 234 305 324 351 316 300 254 301 315 331 -9999 
+
+then the program displays 
+
+7 5 
+
+If the sequence does not contain any hot day, the program displays 0 0. If there are more the longest 
+sequences of hot days, it does not matter which of them you choose.
