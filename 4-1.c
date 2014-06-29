@@ -43,5 +43,8 @@ int main()
     TLength = 0;
     days++;  
   }
+  
+  printf("%d %d\n", days, length);
+  
   return 0;
 }
