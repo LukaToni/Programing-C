@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  int days = 1;
-  int day = 0;
-  int Tday = 0;
-  int length = 0;
-  int TLength  = 0;
+  int days    = 1;
+  int day     = 0;
+  int Tday    = 0;
+  int length  = 0;
+  int TLength = 0;
   
   int temp;
   
@@ -34,7 +34,7 @@ int main() {
       }
     }
     
-    Tday = 0;
+    Tday    = 0;
     TLength = 0;
     days++;  
   }
