@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
   int days = 1;
   int day = 0;
   int Tday = 0;
@@ -10,33 +9,29 @@ int main()
   
   int temp;
   
-  while(scanf("%d", temp) == 1 && temp != EOF)
-  {
-    if(temp >= 300 && Tday == 0 && TLength == 0)
-    {
+  while(scanf("%d", temp) == 1 && temp != EOF) {
+    if(temp >= 300 && Tday == 0 && TLength == 0) {
       Tday = days;
       TLength++;
       days++;  
       continue;
     }
     
-    if(temp >= 300 && Tday != 0)
-    {
+    if(temp >= 300 && Tday != 0) {
       TLength++;
       days++;
       continue;
     }
     
-    if(temp < 300)
-    {
-      if (length < TLength)
-      {
+    if(temp < 300) {
+      if (length < TLength) {
         day = Tday;
         length = TLength;
       }
       
-      if(temp == -9999)
+      if(temp == -9999) {
         break;
+      }
     }
     
     Tday = 0;
